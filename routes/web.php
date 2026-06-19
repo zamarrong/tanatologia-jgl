@@ -10,7 +10,7 @@ Route::post('/', [LandingTanatologiaController::class, 'store'])->name('tanatolo
 Route::get('/mensaje', [LandingTanatologiaController::class, 'thankyou'])->name('mensajeT');
 
 Route::get('/descargar-ebook-tanatologia', function () {
-    $filePath = storage_path('app/public/JGLEbookContenidoTanatólogico.pdf');
+    $filePath = storage_path('app/public/JGL_Ebook-AVP.pdf');
 
     if (!file_exists($filePath)) {
         abort(404);
@@ -18,8 +18,7 @@ Route::get('/descargar-ebook-tanatologia', function () {
 
     return response()->download(
         $filePath,
-        'JGLEbookContenidoTanatólogico.pdf',
+        'JGL_Ebook-AVP.pdf',
         ['Content-Type' => 'application/pdf']
     );
 })->name('tanatologia.download');
-

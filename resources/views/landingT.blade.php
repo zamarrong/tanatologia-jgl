@@ -16,26 +16,27 @@
           Tanatología
         </span>
 
-        <h1 class="text-stone-800 text-4xl md:text-5xl pt-serif-regular mt-2">
-          Cierra el año y recuerda a tu ser amado
+        <h1 class="text-stone-800 text-4xl md:text-6xl pt-serif-regular mt-2">
+          El amor de papá permanece en la memoria
         </h1>
 
         <p class="mt-6 text-stone-700 text-lg leading-relaxed">
-          Navidad y Año Nuevo son fechas que solemos asociar con celebración,
-          reunión y calidez. Sin embargo, cuando atravesamos un duelo,
-          estas mismas fechas pueden convertirse en recordatorios dolorosos
-          de quien ya no está.
+          Hay recuerdos, enseñanzas y momentos compartidos con papá que permanecen
+          contigo a lo largo del tiempo. Aunque su ausencia pueda sentirse de distintas
+          maneras, el vínculo que construiste con él continúa formando parte de tu historia.
         </p>
 
         <p class="mt-4 text-stone-700 text-lg leading-relaxed">
-          Quizá ahora nos preguntemos:
-          ¿qué hago con todo lo que siento?,
-          ¿cómo festejar sin mi ser querido?,
-          ¿cómo sostener una tradición cuando mi corazón está roto?
+          Con el deseo de acompañarte en esta fecha, compartimos contigo un ebook
+          dedicado a la pérdida de papá, una lectura que invita a reflexionar sobre
+          el amor, los recuerdos y las diferentes formas en que su presencia puede
+          seguir acompañándote a través del tiempo.
         </p>
 
-        <p class="mt-4 text-stone-700 text-lg leading-relaxed font-medium">
-          Descarga nuestro ebook y encuentra respuestas a estas interrogantes.
+        <p class="mt-4 text-stone-700 text-lg leading-relaxed">
+          Esperamos que encuentres en estas páginas un espacio para recordar con
+          cariño, conectar con tus emociones y honrar aquello que sigue teniendo
+          un lugar especial en tu vida.
         </p>
 
         <p class="mt-6 text-[#0F1E6A] font-semibold italic">
@@ -45,7 +46,7 @@
 
       <div class="md:w-1/2">
         <img
-          src="{{ asset('assets/img/landing.jpg') }}"
+          src="{{ asset('assets/img/padre-manos.jpg') }}"
           class="w-full h-auto mask-b-from-65% mask-b-to-100%"
           alt="Acompañamiento tanatológico"
         >
@@ -59,16 +60,16 @@
   <div class="container mx-auto px-6 max-w-4xl">
 
     <div class="text-center mb-10">
-      <h2 class="text-3xl pt-serif-regular text-stone-800">
+      <h2 class="text-5xl pt-serif-regular text-stone-800">
         Regístrate
       </h2>
       <p class="mt-4 text-stone-600 text-lg">
-        Regístrate para recibir el ebook y acompañarte en estas fechas.
+        Haz clic en el siguiente botón para descargar el ebook.
       </p>
     </div>
 
     <div class="flex justify-center">
-      <form  method="POST"  action="{{ route('tanatologia.store') }}"  class="md:w-1/2 w-full space-y-6">
+      <form  method="POST"  action="{{ route('tanatologia.store') }}"  class="md:w-3/5 w-full space-y-6">
         @csrf
         <div>
           <label class="block text-sm text-stone-800 pt-serif-regular mb-2">
@@ -116,6 +117,11 @@
           Descargar ebook
           <img  src="{{ asset('assets/img/arrow_custom.svg') }}"  class="hover:-translate-x-1 transition-transform duration-300"  alt=""  >
         </button>
+        <p class="text-stone-600 text-base leading-relaxed text-center">
+          Deseamos que estas páginas te brinden un momento de reflexión y cercanía,
+          y que encuentres en ellas palabras que acompañen aquello que hoy ocupa
+          un lugar importante en tu corazón.
+        </p>
       </form>
     </div>
   </div>

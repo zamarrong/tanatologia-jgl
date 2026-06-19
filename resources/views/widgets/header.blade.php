@@ -3,7 +3,7 @@
         <div class="flex flex-wrap justify-between items-center">
             <!-- Logo y menú hamburguesa -->
              <div class="flex items-center w-full md:w-auto justify-between md:justify-start">
-                <a href="/" class="flex items-center z-[1001]">
+                <a href="https://jgarcialopez.com.mx" class="flex items-center z-[1001]">
                     <img src="{{ asset('assets/img/logo_blanco.svg') }}" class="h-15 nav-logo-white" alt="Logo">
                     <img src="{{ asset('assets/img/logo_negro.svg') }}" class="h-15 nav-logo-dark hidden" alt="Logo">
                 </a>

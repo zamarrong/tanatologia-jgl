@@ -18,24 +18,26 @@
 
         <p class="mt-6 text-stone-700 text-lg leading-relaxed">
           Tu ebook se está descargando automáticamente.<br>
-          Esperamos que este contenido te acompañe y te brinde apoyo en estas fechas.
+          Deseamos que estas páginas te brinden un momento de reflexión y cercanía,
+          y que encuentres en ellas palabras que acompañen aquello que hoy ocupa
+          un lugar importante en tu corazón.
         </p>
 
 
-       <!-- <p class="mt-6 text-sm text-stone-600">
-          Si la descarga no inicia,
+        <p class="mt-6 text-sm text-stone-600">
+          ¿No se descargó?
           <a
             href="{{ route('tanatologia.download') }}"
             class="text-[#0F1E6A] underline font-semibold"
           >
-            haz clic aquí
+            Volver a descargar
           </a>
-        </p>-->
+        </p>
 
         <div class="mt-10">
           <a
             href="https://jgarcialopez.com.mx/planes"
-            class="inline-block text-sm text-stone-600 border border-stone-300 rounded-lg px-6 py-3 hover:bg-stone-100 hover:text-stone-800 transition">
+            class="inline-block text-sm text-white bg-[#0F1E6A] border border-[#0F1E6A] rounded-lg px-6 py-3 hover:bg-[#132368] transition">
             Conoce más
           </a>
         </div>
@@ -47,7 +49,7 @@
 
       <div class="md:w-1/2">
         <img
-          src="{{ asset('assets/img/landing.jpg') }}"
+          src="{{ asset('assets/img/padre-manos.jpg') }}"
           class="w-full h-auto mask-b-from-65% mask-b-to-100%"
           alt="Acompañamiento tanatológico"
         >

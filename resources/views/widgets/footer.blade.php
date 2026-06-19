@@ -6,7 +6,9 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div class="md:col-span-3">
                 <div class="mb-8 flex justify-center">
-            <img src="{{ asset('assets/img/logo_blanco.png') }}" class="w-2/5 md:w-1/5" alt="Logo">
+            <a href="https://jgarcialopez.com.mx" class="w-2/5 md:w-1/5">
+                <img src="{{ asset('assets/img/logo_blanco.png') }}" class="w-full" alt="Logo">
+            </a>
         </div>
                 <h4 class="text-lg text-stone-300 mb-4 center-normal">Oficinas de atención a cliente</h4>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -54,7 +56,7 @@
             
             <p class="mb-2 text-stone-50 text-sm text-center">
                 J. García López Casas Funerarias. Todos los derechos reservados.<br>
-                La vida merece un homenaje®. <a href="#" class="text-[#F7BE00]">Ver política de privacidad</a>
+                La vida merece un homenaje®. <a href="https://jgarcialopez.com.mx/politica-de-privacidad" class="text-[#F7BE00]">Ver política de privacidad</a>
             </p>
         </div>
     </div>

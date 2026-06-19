@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/assets/fonts/GothamPro.woff2') format('woff2');
+}
+.Gotham{
+  font-family: 'Gotham';
+  
+}
+
+nav.scrolled {
+        background-color: white !important;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    nav.scrolled .nav-link,
+    nav.scrolled .nav-icon {
+        color: #333 !important;
+    }
+    nav.scrolled .nav-link:hover {
+        color: #f59e0b !important;
+    }
+    nav.scrolled .nav-logo-white {
+        display: none;
+    }
+    nav.scrolled .nav-logo-dark {
+        display: block;
+    }
+    
+    /* Submenús que se despliegan hacia abajo */
+    .submenu {
+        top: 100%;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    li:hover .submenu {
+        opacity: 1;
+        display: block;
+    }
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.left-custom {
+    left: calc(var(--spacing) * 0 - 1rem);
+}
+
+.linea{
+    border-bottom: solid 5px #F7BE00;
+    width: 6rem;
+}
+
+.linea2{
+    border-bottom: solid 2px #F7BE00;
+    width: 100%;
+}
+
+.border-img{
+  padding: 10px;
+  border-color: 10px solid #D6D3D1;
+}
+
+.notched-button {
+       clip-path: polygon(
+        16px 0%, calc(100% - 16px) 0%, 100% 16px,
+        100% calc(100% - 16px), calc(100% - 16px) 100%,
+        16px 100%, 0% calc(100% - 16px), 0% 16px
+      );
+    }
+
+.center{
+    display: flex;
+    align-items: center;
+}
+.center-normal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+ #testimonial-slider {
+    display: flex;
+    will-change: transform;
+  }
+  
+  /* Ocultar scrollbar */
+  .relative.overflow-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .relative.overflow-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .box{
+    background: #F0EDE8;
+    border-radius: 100%;
+  }
+
+  .linea-2{
+    margin-top: 16px;
+    border-bottom: solid 1px #B0842A;
+    width: 100%;
+  }
+
+  .linea-faq{
+    margin-top: 16px;
+    border-bottom: solid 1px #E0D9CA;
+    width: 100%;
+  }
+
+  .btn-details{
+    border: solid 1px #E7E5E4;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.img-faq{
+  width: 75px;
+  height: auto;
+}
+
+.logo-footer{
+  width: 20%;
+}
+
+.box-footer{
+  background-color: rgb(255, 255 , 255, 0.10);
+  padding: 16px;
+  border: 1px solid rgb(255, 255 , 255, 0.20);
+  border-radius: 4PX;
+}
+
+.pad-button{
+  padding: 12px 16px 12px 16px;
+}
+
+.text-nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+
+.icon-blue{
+  color: red;
+}
+
+

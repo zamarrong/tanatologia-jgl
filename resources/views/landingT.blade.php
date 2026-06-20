@@ -105,11 +105,16 @@
           </label>
           <div class="border-b border-stone-400 w-full">
             <input
-              type="text"
+              type="tel"
               name="phone"
               required
+              inputmode="numeric"
+              maxlength="10"
+              pattern="[0-9]{10}"
+              title="Ingresa los 10 dígitos de tu teléfono"
+              oninput="this.value=this.value.replace(/[^0-9]/g,'')"
               class="w-full bg-transparent py-2 text-sm text-stone-600 Gotham placeholder-stone-500 focus:outline-none"
-              placeholder="000 000 0000"
+              placeholder="Ej. 5512345678"
             >
           </div>
         </div>

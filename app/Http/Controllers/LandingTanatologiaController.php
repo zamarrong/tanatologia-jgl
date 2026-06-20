@@ -24,7 +24,7 @@ class LandingTanatologiaController extends Controller
     $validated = $request->validate([
         'name'  => 'required|string|max:255',
         'email' => 'required|email|max:255',
-        'phone' => 'required|string|max:20',
+        'phone' => ['required', 'regex:/^[0-9]{10}$/'],
     ]);
 
     Log::info('Tanatologia: Formulario recibido', $validated);

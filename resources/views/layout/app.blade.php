@@ -41,5 +41,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
    
 
+    <script>
+    (function () {
+      var nav = document.getElementById('main-nav');
+      var main = document.querySelector('.tanatologia-offset');
+      if (!nav || !main) return;
+      var mq = window.matchMedia('(max-width: 767px)');
+      function fit() { main.style.paddingTop = mq.matches ? (nav.offsetHeight + 'px') : ''; }
+      fit();
+      window.addEventListener('load', fit);
+      window.addEventListener('resize', fit);
+      setTimeout(fit, 300);
+    })();
+    </script>
 </body>
 </html>

@@ -172,5 +172,5 @@ nav.scrolled {
 
 /* Fix: offset del contenido bajo el header fijo en mobile */
 @media (max-width: 767px) {
-  .tanatologia-offset { padding-top: 90px; }
+  .tanatologia-offset { padding-top: 170px; }
 }

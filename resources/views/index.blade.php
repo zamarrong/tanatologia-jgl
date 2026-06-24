@@ -104,7 +104,7 @@
           </a>
       </div>
       <div class="slide-in-right"> 
-        <img src="{{ asset('assets/img/flores.png') }}"  class="w-140 h-full" alt="">
+        <img src="{{ asset('assets/img/flores.webp') }}"  class="w-140 h-full" alt="">
       </div>
     </div>
     
